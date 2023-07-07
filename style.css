@@ -96,7 +96,7 @@ header{
     margin-right: 1px;
   }
   .video {
-    width: 500px;
+    width: 480px;
     margin-bottom: 30px;
     margin-right: 1px;
   }
@@ -149,23 +149,26 @@ header{
 
 @media (min-width:768px) {
   .video {
-    width: 270px;
+    max-width: 270px; 
     margin-bottom: 30px;
-    margin-right: 15px;
+    margin-right: 15px; 
+
   }
   
 }
+
+
+
+
   .videos {
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+    justify-content: flex-start;
+
   }
   
-  /* .video {
-    width: 270px;
-    margin-bottom: 30px;
-    margin-right: 15px;
-  } */
+
   .thumbnail {
     width: 100%;
     height: 170px;
